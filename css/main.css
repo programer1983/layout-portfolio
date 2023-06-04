@@ -12,6 +12,12 @@ body {
     margin: 0 auto;
 }
 
+.title-1 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 1.5;
+}
+
 /* ==== HEADER =========================================================== */
 
 .header {
@@ -95,8 +101,6 @@ body {
     column-gap: 30px;
 }
 
-.services-card {}
-
 .services-card p {
     line-height: 200%;
 }
@@ -113,3 +117,38 @@ body {
     margin-bottom: 10px;
 }
 
+/* ==== PORTFOLIO ============================================================================= */
+
+.portfolio {
+    background-color: #F1F1F1;
+    padding: 90px 0px;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project + .project {
+    margin-top: 90px;
+}
+
+.project-img {
+    margin-bottom: 40px;
+}
+
+.project-title a {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.project-title a {
+    color: #070707;
+    text-decoration: underline;
+}
+
+/* =================================================================================== */
