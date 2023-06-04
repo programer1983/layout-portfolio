@@ -63,6 +63,10 @@ body {
     color: #000000;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+}
+
 .nav-link.active {
     color: #606060;
 }
@@ -151,4 +155,62 @@ body {
     text-decoration: underline;
 }
 
-/* =================================================================================== */
+/* === FOOTER ================================================================================ */
+
+.contacts {
+    padding: 90px 0px;
+    text-align: center;
+}
+
+.contacts-title {
+    margin-bottom: 40px;
+}
+
+.contacts-content {
+    max-width: 480px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0px auto 40px
+}
+
+.contacts-content p + p {
+    margin-top: 1em;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.button {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #FFFFFF;
+    transition: background-color 0.2s ease-in, top 0.2s ease-in;
+}
+
+.button:hover, button:focus {
+    background-color: #3b3838;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+    background-color: #000;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.contacts-footer {
+    line-height: 1.5;
+    color: #828282;
+}
