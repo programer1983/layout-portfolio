@@ -16,6 +16,20 @@ function documentClick() {
     } 
 }
 
+AOS.init();
+
+// AOS.init({
+//     once: true
+// });
+
+// AOS.init({
+//     disable: 'mobile'
+// });
+
+// AOS.init({
+//     disable: 'phone'
+// });
+
 
 
 
