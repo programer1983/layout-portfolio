@@ -158,6 +158,10 @@ body {
     margin-bottom: 40px;
 }
 
+.project-title {
+    min-width: 300px;
+}
+
 .project-title a {
     font-size: 18px;
     line-height: 1.5;
